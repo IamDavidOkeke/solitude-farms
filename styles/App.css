@@ -62,6 +62,15 @@ button:focus-visible {
   }
 }
 
+.logoo{
+  width: 20rem !important;
+}
+@media (max-width: 900px) {
+  .logoo{
+    width: 10rem !important;
+  }
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -163,7 +172,8 @@ button:focus-visible {
 }
 .rec-1{
   height: 90vh;
-  background-image: url('../image/topsphere-media-oOHBxlGADx4-unsplash.jpg');
+  background-image: url('../image/solitude-farms-cover.jpg');
+  background-position: top;
 }
 @media (max-width: 600px) {
   .rec-1{
@@ -176,16 +186,22 @@ button:focus-visible {
 }
 .rec-3{
   min-height: 50vh;
-  background-image: url('../image/IMG-20240429-WA0040.jpg');
+  background-image: url('../image/markus-winkler-HeqXGxnsnX4-unsplash.jpg');
 }
 .rec-4{
   min-height: 50vh;
-  background-image: url('../image/cover.jpg');
+  background-image: url('../image/gabriel-jimenez-jin4W1HqgL4-unsplash.jpg');
 }
 .rec-5{
-  background-image: url('src/image/IMG-20240429-WA0075.jpg');
+  min-height: 50vh;
+  background-image:  url('../image/markus-spiske-ZSZ6wzNU12Q-unsplash.jpg');
+}
+.rec-6{
+  min-height: 50vh;
+  background-image:  url('../image/andrej-lisakov-zYUn4R37o_U-unsplash\ \(1\).jpg');
 }
 .rec-7{
+
   background-color: #e7e7e7;
 }
 .b-gradient{
@@ -358,4 +374,8 @@ button:focus-visible {
 }
 .absolute{
   position: absolute;
+}
+.card-image-fix{
+  width: 4rem;
+  margin: 0 auto;
 }
